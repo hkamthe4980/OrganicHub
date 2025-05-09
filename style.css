@@ -1,0 +1,535 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    border: 2px solid red;
+
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+
+
+}
+
+.LogoOrganic {
+    width: 20%;
+}
+
+.LogoOrganic img {
+    width: 100%;
+
+}
+
+.navbar {
+    display: none;
+    /* width: 50%;
+    display: flex;
+    
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+ul {
+    /* display: flex;
+    justify-content: center; 
+    padding: 0px 0px; */
+}
+
+ul li {
+    /* width: 100%;
+
+    list-style: none;
+    top: 0;
+    left: 0;
+    margin: 10px 5px; */
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IconHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.Icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+/* .menu{
+    left: 0;
+} */
+.menu i {
+    display: block;
+
+}
+
+.menu2 i {
+    margin: 20px;
+}
+
+
+
+#hero {
+    width: 100%;
+}
+
+.heroImg img {
+    width: 100%;
+    
+}
+
+
+
+#FlexLayout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+
+
+
+}
+
+.sub-main {
+
+    width: 30%;
+    text-align: center;
+}
+
+.sub-main img {
+    width: 100%;
+    padding: 10px;
+}
+
+
+#tulsi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.tulsi1 {
+    margin: 20px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.tulsi1 h3 {
+    font-size: 30px;
+}
+
+.tulsiImg1 {
+    width: 47%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.tulsiImg1 img {
+    width: 80%;
+
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10%;
+    background: rgb(103, 239, 103);
+}
+
+#product {
+    text-align: center;
+
+
+}
+
+.Product1 {
+    text-align: center;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.Product1 img {}
+
+.Product2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Product2 img {
+    width: 80%;
+
+
+
+}
+
+
+
+#ProductShop {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    background: #f1eecf;
+    margin-top: 30px;
+
+
+}
+
+.ShopPartLeft {
+    width: 100%;
+    text-align: center;
+}
+
+.ShopPartLeft img {
+    width: 70%;
+    margin: 20px;
+
+
+}
+
+.ShopPartRight {
+    width: 100%;
+
+}
+
+.ShopHeader h2 {
+    margin: 10px 20px;
+}
+
+.Shopimg {
+    width: 20%;
+    margin-top: 20px
+}
+
+.ShopMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 20px;
+
+
+}
+
+.ShopText {
+    padding: 0px 20px;
+    margin-top: 20px;
+
+    width: 80%;
+
+}
+
+.ShopButton {
+    padding: 20px;
+    background: black;
+    color: white;
+    margin: 10px 0px 10px 30px;
+    border-radius: 10px;
+}
+
+
+#healthy {
+
+
+    margin: 20px 30px;
+
+
+}
+
+.HealthyLeft {
+    width: 100%;
+    text-align: inherit;
+    font-style: italic;
+}
+
+.HealthyLeft p {
+    margin-top: 20px;
+}
+
+.HealthyRight {
+    width: 100%;
+}
+
+.HealthyRight img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.BtnHealthy {
+    background: #debc24;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+
+#customer {
+    background-image: url(https://organicindia.com/cdn/shop/files/1920-X-830-testimonial.png?v=1666267004);
+    background-size: 100% 100%;
+
+}
+
+.CustomerMain {
+    text-align: center;
+
+}
+
+.CustomerMain h2 {
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.Img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+
+}
+
+.Img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+
+
+
+
+}
+
+.customerh3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.cusP {
+    color: white;
+    margin: 10px 0px;
+}
+
+.CustomerMain h5,
+h6 {
+    color: rgb(10, 9, 9);
+    margin: 10px 0px;
+}
+
+
+
+#footer {
+    background-image: url(https://organicindia.com/cdn/shop/files/1920-X-830-testimonial.png?v=1666267004);
+    display: flex;
+   
+    flex-direction: column;
+    text-align: center;
+
+}
+.FooterMian{
+    margin: 20px;
+    color: white;
+    
+}
+
+.FooterMian ul li{
+    list-style: none;
+}
+
+.BootomFooter{
+  
+    background: #e2bb53;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 750px) {
+    .tulsiImg1 img{
+        width: 70%;
+
+    }
+    .Product2 img{
+        width: 50%;
+    }
+    .ShopPartLeft img {
+        width: 50%;
+        margin: 20px;
+    }
+    .ShopHeader h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .HealthyRight img {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        border-radius: 10px;
+       
+    }
+    .cusP {
+        color: white;
+        margin: 10px 30px;
+    }
+    .menu{
+        display: none;
+    }
+    /* #footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        
+        
+       
+    } */
+    .ShopMain {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 110px;
+    }
+    .menu i {
+        display: block;
+        margin-right: 30px;
+    
+    }
+    
+.navbar {
+    display: none;
+    width: 50%;
+    display: flex;
+    
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.UlNavbar {
+    display: flex;
+    justify-content: center; 
+    padding: 0px 0px;
+}
+
+.UlNavbar li {
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    color: blue;
+
+    list-style: none;
+    
+    margin: 10px 20px;
+    font-weight:bold ;
+
+}
+
+  }
+  
+
+
+  
+
+@media only screen and (min-width: 1200px) {
+    .tulsiImg1 img{
+        width: 70%;
+
+    }
+    .Product2 img{
+        width: 50%;
+    }
+    .ShopPartLeft img {
+        width: 50%;
+        margin: 20px;
+    }
+   
+    .HealthyRight img {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        border-radius: 10px;
+       
+    }
+    .cusP {
+        color: white;
+        margin: 10px 306px;
+    }
+    #footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        text-align: justify;
+        
+        
+        
+       
+    }
+    .ShopHeader h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+    .ShopMain {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 269px;
+    }
+    .menu i {
+        display: block;
+        margin-right: 30px;
+    
+    }
+    .CustomerMain h2 {
+        color: white;
+        font-size: 60px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .CustomerMain img {
+        width:20%;
+    }
+    
+.UlNavbar li {
+    width: 100%;
+    font-size: 23px;
+    list-style: none;
+    
+    margin: 10px 30px;
+    font-weight:bold ;
+    color: blue;
+    cursor: pointer;
+
+}
+  }
+  
